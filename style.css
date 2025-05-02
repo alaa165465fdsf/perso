@@ -1,0 +1,362 @@
+img{
+    height: 140px;
+    width: 100%;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+nav{
+    background-color: #3f3f3f;
+    color: white;
+    padding: 10px;
+}
+a{
+    
+    color: white;
+    text-decoration: none;
+ text-align: center;
+    display: inline-block;
+    margin-left: 40px;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s ease;
+    text-transform: uppercase;
+}
+a:hover {
+    color: #ffcc00;
+}
+
+header{
+    background-color: #3f3f3f;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+#about {
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    text-align: justify;
+}
+#about h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+}
+#about p {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #555;
+}
+#a {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+#content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#content .text {
+    flex: 1;
+    margin-right: 20px;
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+#content .text h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+#content .text p {
+    font-size: 16px;
+    color: #555;
+}
+
+#content img {
+    flex-shrink: 0;
+    max-width: 300px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+@keyframes gradientBackground {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+body {
+    background: linear-gradient(270deg, #ff7e5f, #feb47b, #86a8e7, #91eae4);
+    background-size: 400% 400%;
+    animation: gradientBackground 10s ease infinite;
+}
+section {
+    background-color: #ffffff;
+    padding: 30px;
+    margin: 20px auto;
+    max-width: 900px;
+    border-radius: 10px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.8;
+    color: #333;
+    text-align: justify;
+}
+
+section h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #444;
+    text-align: center;
+}
+
+section p {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #555;
+}
+
+section img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+#contact {
+    background-color: #f4f4f4;
+    padding: 30px;
+    margin: 20px auto;
+    max-width: 900px;
+    border-radius: 10px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.8;
+    color: #333;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #444;
+}
+
+#contact .contact-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+#contact .contact-icons a {
+    display: inline-block;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#contact .contact-icons a:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#contact .contact-icons img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#contact p {
+    font-size: 16px;
+    color: #555;
+    margin-top: 10px;
+}
+
+#contact p a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+#contact p a:hover {
+    color: #0056b3;
+}
+#favorite-anime {
+    background-color: #ffffff;
+    padding: 30px;
+    margin: 20px auto;
+    max-width: 900px;
+    border-radius: 10px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+    line-height: 1.8;
+    word-spacing: 2px;
+}
+
+#favorite-anime h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #444;
+}
+
+.anime-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.anime-gallery img {
+    width: 220px;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 16px 18px rgba(0, 0, 0, 0.15);
+    transform: rotate(-3deg);
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.anime-gallery img:hover {
+    transform: rotate(0deg) scale(1.15);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+}
+@media screen and (max-width: 1024px) {
+    a{
+        margin-left: 5px;
+        font-size: 10px;
+    }
+    #content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 15px;
+    }
+    .abc{
+    border-radius: 15px;
+    }
+    #content .text {
+        margin-right: 0;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    #content img {
+        max-width: 90%;
+    }
+    .anime-gallery {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+    .anime-gallery img {
+        width: 100%;
+        max-width: 250px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #content {
+        padding: 10px;
+    }
+    #content .text {
+        font-size: 14px;
+    }
+    .anime-gallery img {
+        max-width: 200px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #content .text h2 {
+        font-size: 20px;
+    }
+    #content .text p {
+        font-size: 14px;
+    }
+    .anime-gallery img {
+        max-width: 150px;
+    }
+}
+@keyframes redAnimation {
+    0% {
+        filter: brightness(1) hue-rotate(0deg);
+    }
+    50% {
+        filter: brightness(1.2) hue-rotate(0deg);
+        background-color: red;
+    }
+    100% {
+        filter: brightness(1) hue-rotate(0deg);
+    }
+}
+
+@keyframes blueAnimation {
+    0% {
+        filter: brightness(1) hue-rotate(240deg);
+    }
+    50% {
+        filter: brightness(1.2) hue-rotate(240deg);
+        background-color: blue;
+    }
+    100% {
+        filter: brightness(1) hue-rotate(240deg);
+    }
+}
+
+@keyframes grayAnimation {
+    0% {
+        filter: grayscale(0%);
+    }
+    50% {
+        filter: grayscale(100%);
+        background-color: gray;
+    }
+    100% {
+        filter: grayscale(0%);
+    }
+}
+
+.anime-gallery img:nth-child(1) {
+    animation: redAnimation 5s infinite;
+}
+
+.anime-gallery img:nth-child(2) {
+    animation: blueAnimation 5s infinite;
+}
+
+.anime-gallery img:nth-child(3) {
+    animation: grayAnimation 5s infinite;
+}
